@@ -1,0 +1,149 @@
+body {
+	background: url(fotos/fundop.jpg);
+	color: black;
+	background-size: cover;
+	font-family: 'Cuprum', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 5%;
+}
+
+section {
+	display: flex;
+}
+
+/* CONTENT-LEFT */
+
+.content-left {
+	width: 33%;
+	border-right: 4px solid #fff;
+}
+
+.content-left .photo {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	padding: 3px;
+	background-color: white;
+	border: 1px solid #dbdbdb;
+}
+
+/*.content-left .social-media {
+	
+} */
+
+.content-left .social-media li {
+	display: flex;
+	
+}
+
+.content-left .social-media li a {
+	color: rgba(230, 224, 224, 0.959);
+	padding: .5rem;
+	background: no-repeat left center;
+	text-decoration: none;
+	font-size: 20px;
+	margin-top: auto;
+}
+
+.content-left .social-media li a i {
+	margin-right: .5rem;
+}
+
+/* CONTENT-RIGHT */
+
+.content-right {
+	width: 66%;
+}
+
+/*.content-right .intro {}*/
+
+.content-right .hi, .content-right .job {
+	font-size: 50px;
+	color: rgba(219, 212, 212, 0.959);
+	line-height: 1em;
+	font-family: 'Staatliches', cursive;
+	text-transform: uppercase;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	
+}
+
+.content-right .name {
+	font-size: 60px;
+	color: #ec30ec;
+	line-height: 1em;
+	font-family: 'Staatliches', cursive;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	
+}
+
+.content-right .description {
+	color: rgba(233, 227, 227, 0.959);
+	padding-left: 22px;
+	margin-bottom: auto;
+}
+
+
+
+@media(min-width: 400px) {
+	.photo {
+		flex-direction: row;
+		justify-content: center;
+		margin-left: 5px;
+		margin-right: 20px;
+	}
+}
+
+.content-left .social-media li a {
+	color: rgba(230, 224, 224, 0.959);
+	padding: .5rem;
+	background: no-repeat left center;
+	text-decoration: none;
+	font-size: 20px;
+	margin-top: auto;
+}
+
+.content-left .social-media li a i {
+	margin-right: .5rem;
+}
+.content-right {
+	width: 66%;
+}
+
+.content-right .hi, .content-right .job {
+	font-size: 50px;
+	color: rgba(219, 212, 212, 0.959);
+	line-height: 1em;
+	font-family: 'Staatliches', cursive;
+	text-transform: uppercase;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	
+}
+
+.content-right .name {
+	font-size: 60px;
+	color: #ec30ec;
+	line-height: 1em;
+	font-family: 'Staatliches', cursive;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	
+}
+
+.content-right .description {
+	color: rgba(233, 227, 227, 0.959);
+	padding-left: 22px;
+	margin-bottom: auto;
+}
